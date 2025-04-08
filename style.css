@@ -1,0 +1,43 @@
+/* Universal selector to reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector for body */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* ID selector for main header */
+#main-header {
+    background-color: #005f73;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #0a9396;
+}
+
+/* Class selector for content sections */
+.content-section {
+    background-color: #e9d8a6;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ee9b00;
+    border-radius: 5px;
+}
+
+/* Class selector for styled images */
+.styled-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 5px solid #ca6702;
+    padding: 5px;
+    border-radius: 10px;
+}
